@@ -25,6 +25,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.ui.draw.blur
 import androidx.compose.material3.Card
 import androidx.compose.foundation.layout.Box
+import androidx.compose.ui.graphics.Color
 
 @Composable
 fun ActivitasPertama(modifier: Modifier) {
