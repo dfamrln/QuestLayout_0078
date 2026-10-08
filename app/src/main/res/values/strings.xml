@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="prodi">Teknologi Informasi</string>
+    <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="nama">Muhammad Daffa Marlan</string>
+    <string name="alamat">Bangunjiwo, Bantul</string>
+    <string name="copy">CopyRight, 2026</string>
+</resources>
