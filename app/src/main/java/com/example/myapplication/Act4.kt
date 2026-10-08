@@ -12,6 +12,19 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.material3.Text
+import androidx.compose.ui.unit.sp
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.Column
+import androidx.compose.ui.unit.dp
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Row
+import androidx.compose.ui.draw.blur
+import androidx.compose.material3.Card
+import androidx.compose.foundation.layout.Box
 
 @Composable
 fun ActivitasPertama(modifier: Modifier) {
@@ -50,10 +63,28 @@ fun ActivitasPertama(modifier: Modifier) {
                  Text(
                      stringResource("Muhammad Daffa Marlan"),
                      fontSize = 30.sp,
-                     fontFamily = FontFamily.Cursive
+                     fontFamily = FontFamily.Cursive,
+                     color = Color.White,
+                     modifier = Modifier.padding(top = 15.dp)
+                 )
+                 Text(
+                     stringResource(R.string.alamat),
+                     fontSize = 20.sp,
+                     color = Color.Yellow,
+                     modifier = Modifier.padding(top = 10.dp)
                  )
              }
             }
+        }
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+        ){
+            Text(
+                stringResource(R.string.copy),
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
+            )
         }
     }
 }
